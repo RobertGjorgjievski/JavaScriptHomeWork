@@ -69,20 +69,20 @@
 // Result: full = ["1. Bob Gregory", "2. Jill Wurtz"]
 
 
-let firstName = ["Bob" , "Jeff ","Bil ", "Elon", "Tim "];
-let lastName = ["Dylan","Bezos","Gejts","Mask","Cook"];
-let fullNameArry = [];
+// let firstName = ["Bob" , "Jeff ","Bil ", "Elon", "Tim "];
+// let lastName = ["Dylan","Bezos","Gejts","Mask","Cook"];
+// let fullNameArry = [];
 
-function fullName (firstName,lastName){
+// function fullName (firstName,lastName){
     
-    for(let i = 0; i < firstName.length; i++){
+//     for(let i = 0; i < firstName.length; i++){
        
-        for(let j = 0; j < lastName.length; j++){
-            fullNameArry.push(`${i +1} ${firstName[i]} ${lastName[j]}`);
-        }
-} 
-    console.log(fullNameArry);  
-}
-fullName(firstName,lastName);
+//         for(let j = 0; j < lastName.length; j++){
+//             fullNameArry.push(`${i +1} ${firstName[i]} ${lastName[j]}`);
+//         }
+// } 
+//     console.log(fullNameArry);  
+// }
+// fullName(firstName,lastName);
 
     
