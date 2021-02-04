@@ -59,3 +59,30 @@
 
 
 // HomeWork #4 ----------------------------------------------------------
+// HOMEWORK #4
+// Title: Looping structures
+
+// Description:Write a javascript function that:
+// When given 2 arrays of students firstNames and lastNames will return a new array with students full names
+// Every name should have a numeric value before it
+// Ex: first = ["Bob", "Jill"], last = ["Gregory", "Wurtz"]
+// Result: full = ["1. Bob Gregory", "2. Jill Wurtz"]
+
+
+let firstName = ["Bob" , "Jeff ","Bil ", "Elon", "Tim "];
+let lastName = ["Dylan","Bezos","Gejts","Mask","Cook"];
+let fullNameArry = [];
+
+function fullName (firstName,lastName){
+    
+    for(let i = 0; i < firstName.length; i++){
+       
+        for(let j = 0; j < lastName.length; j++){
+            fullNameArry.push(`${i +1} ${firstName[i]} ${lastName[j]}`);
+        }
+} 
+    console.log(fullNameArry);  
+}
+fullName(firstName,lastName);
+
+    
